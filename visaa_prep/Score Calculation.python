@@ -1,0 +1,6 @@
+p=int(input())
+for i in range(0,p):
+    x,n=map(int,input().split())
+    y=x//10
+    res=y*n
+    print(res)
