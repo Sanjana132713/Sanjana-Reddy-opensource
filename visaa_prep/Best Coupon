@@ -1,0 +1,5 @@
+p=int(input())
+q=0.9*p
+r=p-100
+res=min(q,r)
+print(int(res))
