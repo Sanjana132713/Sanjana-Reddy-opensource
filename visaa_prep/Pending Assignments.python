@@ -1,0 +1,5 @@
+p,q,r=map(int,input().split())
+if p*q<=r*24*60:
+    print("YES")
+else:
+    print("NO")
