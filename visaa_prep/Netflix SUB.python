@@ -1,0 +1,5 @@
+P,Q,R,X=map(int,input().split())
+if P+Q>=X or Q+R>=X or R+P>=X:
+    print("YES")
+else:
+    print("NO")
